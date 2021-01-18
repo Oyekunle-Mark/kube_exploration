@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: web-app-hello-kube
   labels:
-    components: web
+    component: web
 spec:
   containers:
     - name: web-app-hello-kube
