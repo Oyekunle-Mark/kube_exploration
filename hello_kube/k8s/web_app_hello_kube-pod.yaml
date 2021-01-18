@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web_app_hello_kube
+  labels:
+    components: web
+spec:
+  containers:
+    - name: web_app_hello_kube
+      image: oyekunle/web_app_hello_kube
+      ports:
+        - containerPort: 80
